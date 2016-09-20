@@ -23,6 +23,14 @@ set backspace=indent,eol,start
 set wildmode=longest,list,full
 set wildmenu
 
+" Movement
+map <C-H> <C-W>h
+map <C-L> <C-W>l
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+map <C-N> gT
+map <C-M> gt
+
 " Pathogen
 execute pathogen#infect()
 
